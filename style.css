@@ -1,0 +1,273 @@
+/* -- RESET -- */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* -- GENERAL -- */
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  background-color: rgba(250, 250, 250);
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+::selection {
+  color: white;
+  background-color: deepskyblue;
+}
+
+.intro,
+.profits,
+.offer,
+.galleries,
+.faq,
+.contact {
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+h1.title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 2.2rem;
+  text-align: center;
+  color: #444;
+}
+
+h2,
+h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  color: #666;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #222;
+}
+
+ul {
+  margin: 0 auto;
+  list-style: none;
+  font-size: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.pic {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  overflow: hidden;
+}
+
+
+/* -- HEADER -- */
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 60px);
+  z-index: 2;
+  background-image: url(img/header.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+h1.slogan {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  font-size: 2.8rem;
+  line-height: 1.3;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/* -- NAVIGATION -- */
+
+nav {
+  display: none;
+}
+
+
+/* -- INTRO -- */
+
+.intro {
+  position: relative;
+  margin-top: 0;
+}
+
+.intro a {
+  display: inline-block;
+  position: absolute;
+  height: 60px;
+  left: 50%;
+  font-size: 50px;
+  color: #111;
+}
+
+p#start {
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+
+/* -- PROFITS -- */
+
+.profit {
+  margin-bottom: 20px;
+}
+
+h1.title {
+  font-size: 2rem;
+}
+
+.pic {
+  height: 30vh;
+}
+
+.profit:nth-of-type(1) .pic {
+  background-image: url(img/profit1.jpg);
+}
+
+.profit:nth-of-type(2) .pic {
+  background-image: url(img/profit2.jpg);
+}
+
+.profit:nth-of-type(3) .pic {
+  background-image: url(img/profit3.jpg);
+}
+
+.profit:nth-of-type(4) .pic {
+  background-image: url(img/profit4.jpg);
+}
+
+
+/* -- OFFER -- */
+
+.camp {
+  margin-bottom: 40px;
+}
+
+.camp a {
+  height: 30vh;
+  font-size: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+}
+
+.camp:nth-of-type(1) a {
+  background-image: url(img/camp1.jpg);
+}
+
+.camp:nth-of-type(2) a {
+  background-image: url(img/camp2.jpg);
+}
+
+.camp:nth-of-type(3) a {
+  background-image: url(img/camp3.jpg);
+}
+
+.description p:last-child {
+  margin-top: 10px;
+}
+
+
+/* -- BANNER -- */
+
+section.banner {
+  display: none;
+}
+
+
+/* -- GALLERY -- */
+
+.gallery {
+  margin-bottom: 20px;
+  font-size: 0;
+}
+
+.gallery a {
+  display: inline-block;
+  width: 50%;
+  height: 40vw;
+  padding: 5px;
+  overflow: hidden;
+}
+
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/* -- FAQ -- */
+
+.faq {
+  display: none;
+}
+
+
+/* -- CONTACT -- */
+
+.contact {
+  height: 300px;
+  margin-top: 60px;
+  padding: 0 20px;
+  background-color: #111;
+}
+
+.contact h1 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 2.8rem;
+  line-height: 2;
+  text-align: center;
+  color: white;
+}
+
+.contact ul li {
+  margin-top: 20px;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.contact ul li i {
+  padding-right: 10px;
+  font-size: 2.2rem;
+}
