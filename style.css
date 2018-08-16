@@ -8,7 +8,6 @@
   box-sizing: border-box;
 }
 
-
 /* -- GENERAL -- */
 
 html {
@@ -82,7 +81,6 @@ a {
   overflow: hidden;
 }
 
-
 /* -- HEADER -- */
 
 .banner {
@@ -111,13 +109,11 @@ h1.slogan {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-
 /* -- NAVIGATION -- */
 
 nav {
   display: none;
 }
-
 
 /* -- INTRO -- */
 
@@ -139,7 +135,6 @@ p#start {
   padding-top: 80px;
   padding-bottom: 10px;
 }
-
 
 /* -- PROFITS -- */
 
@@ -170,7 +165,6 @@ h1.title {
 .profit:nth-of-type(4) .pic {
   background-image: url(img/profit4.jpg);
 }
-
 
 /* -- OFFER -- */
 
@@ -203,13 +197,11 @@ h1.title {
   margin-top: 10px;
 }
 
-
 /* -- BANNER -- */
 
 section.banner {
   display: none;
 }
-
 
 /* -- GALLERY -- */
 
@@ -226,7 +218,6 @@ section.banner {
   overflow: hidden;
 }
 
-
 .gallery img {
   width: 100%;
   height: 100%;
@@ -234,13 +225,20 @@ section.banner {
   object-position: center;
 }
 
-
 /* -- FAQ -- */
 
 .faq {
   display: none;
 }
 
+.faq a.link {
+  position: static;
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #222;
+  background-color: transparent;
+  text-transform: lowercase;
+}
 
 /* -- CONTACT -- */
 
