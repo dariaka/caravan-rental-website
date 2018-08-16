@@ -209,7 +209,7 @@
   }
   .camp a {
     width: 50%;
-    height: 50vw;
+    height: 60vw;
   }
   .camp:nth-of-type(odd) a {
     float: left;
@@ -306,7 +306,7 @@
   }
   /* -- OFFER -- */
   .camp a {
-    height: 40vw;
+    height: 50vw;
   }
   .camp .description {
     font-size: 1.6rem;
@@ -340,7 +340,7 @@
   }
   /* -- OFFER -- */
   .camp a {
-    height: 30vw;
+    height: 40vw;
   }
   /* -- FAQ -- */
   .faq a.tothetop {
@@ -405,10 +405,11 @@
   }
   /* -- OFFER -- */
   .camp a {
-    height: 40vh;
+    height: 50vh;
   }
   .camp a p {
-    font-size: 0;
+    display: block;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 40vh;
     text-align: center;

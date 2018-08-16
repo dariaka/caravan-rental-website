@@ -173,12 +173,16 @@ h1.title {
 }
 
 .camp a {
-  height: 30vh;
+  height: 40vh;
   font-size: 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-clip: content-box;
+}
+
+.camp a p {
+  display: none;
 }
 
 .camp:nth-of-type(1) a {
@@ -191,6 +195,11 @@ h1.title {
 
 .camp:nth-of-type(3) a {
   background-image: url(img/camp3.jpg);
+}
+
+.description p span {
+  font-weight: 700;
+  color: #666;
 }
 
 .description p:last-child {
