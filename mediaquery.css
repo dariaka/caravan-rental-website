@@ -346,8 +346,9 @@
   .faq a.tothetop {
     display: block;
     position: fixed;
-    bottom: 300px;
+    bottom: 0px;
     right: 0;
+    z-index: -1;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 80px;
