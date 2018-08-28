@@ -149,9 +149,10 @@
     font-size: 3.6rem;
   }
   .contact ul {
-    width: fit-content;
+    max-width: 1024px;
     margin: 40px auto;
     font-size: 2.8rem;
+    text-align: center;
   }
   .contact ul li {
     display: inline-block;
@@ -453,6 +454,9 @@
   /* -- CONTACT -- */
   .contact h1 {
     font-size: 3.6rem;
+  }
+  .contact ul {
+    max-width: 1024px;
   }
   .contact ul li {
     display: inline-block;
