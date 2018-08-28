@@ -185,15 +185,11 @@ h1.title {
 }
 
 .camp:nth-of-type(1) a {
-  background-image: url(img/camp1.jpg);
+  background-image: url("img/adria/mini adria.jpg");
 }
 
 .camp:nth-of-type(2) a {
-  background-image: url(img/camp2.jpg);
-}
-
-.camp:nth-of-type(3) a {
-  background-image: url(img/camp3.jpg);
+  background-image: url("img/tec/mini tec (8).jpg");
 }
 
 .description p span {
