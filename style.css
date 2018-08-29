@@ -132,6 +132,10 @@ p#start {
   padding-bottom: 10px;
 }
 
+p+p {
+  padding-bottom: 10px;
+}
+
 /* -- PROFITS -- */
 .profit {
   margin-bottom: 20px;
