@@ -241,9 +241,12 @@ section.banner {
 
 /* -- CONTACT -- */
 .contact {
+  position: relative;
+  bottom: 0;
   height: 300px;
   margin-top: 60px;
   padding: 0 20px;
+  z-index: 1;
   background-color: #111;
 }
 

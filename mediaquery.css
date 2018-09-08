@@ -511,12 +511,12 @@
 
 @media (min-width: 1200px) {
   .faq a.tothetop {
+    display: block;
     position: fixed;
     bottom: 0;
     right: 0;
     padding-left: 10px;
     padding-right: 10px;
-    z-index: -1;
     font-size: 50px;
     line-height: 1;
     color: white;
