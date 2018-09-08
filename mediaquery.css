@@ -194,32 +194,6 @@
     width: 100%;
     height: 30vh;
   }
-
-  /* -- CONTACT -- */
-  /* .contact .wrap {
-    float: right;
-    width: 50%;
-  }
-
-  .contact h2 {
-    font-size: 3.6rem;
-  }
-
-  .contact ul {
-    margin: 40px auto;
-  }
-
-  .contact ul li {
-    padding-left: 20px;
-    font-size: 2.8rem;
-    line-height: 2;
-    text-align: left;
-  }
-
-  .contact .map {
-    float: right;
-    width: 50%;
-  } */
 }
 
 /* -- LANDSCAPE --*/
@@ -617,20 +591,6 @@
     width: 100%;
     height: 50vh;
   }
-
-  /* -- CONTACT -- */
-  /* .contact h2 {
-    font-size: 3.2rem;
-  }
-
-  .contact ul {
-    font-size: 2.4rem;
-    padding-left: 40px;
-  }
-
-  .contact .map {
-    height: 50vh;
-  } */
 }
 
 @media (min-width: 1200px) {
