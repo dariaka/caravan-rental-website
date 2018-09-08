@@ -29,8 +29,7 @@ html {
 .profits,
 .offer,
 .galleries,
-.faq,
-.contact {
+.faq {
   margin-top: 40px;
   padding: 0 20px;
 }
@@ -230,43 +229,42 @@ section.banner {
   display: none;
 }
 
-.faq a.link {
-  position: static;
-  display: inline-block;
-  font-size: 1.6rem;
-  color: #222;
-  background-color: transparent;
-  text-transform: lowercase;
+.faq a.tothetop {
+  display: none;
 }
 
 /* -- CONTACT -- */
 .contact {
   position: relative;
-  bottom: 0;
-  height: 300px;
   margin-top: 60px;
-  padding: 0 20px;
   z-index: 1;
   background-color: #111;
 }
 
 .contact h2 {
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding-top: 20px;
   font-size: 2.8rem;
   line-height: 2;
   text-align: center;
   color: white;
 }
 
-.contact ul li {
-  margin-top: 20px;
+.contact ul {
+  padding: 20px;
   font-size: 2rem;
+}
+
+.contact ul li {
+  line-height: 1.7;
   text-align: center;
   color: white;
 }
 
 .contact ul li i {
   padding-right: 10px;
-  font-size: 2.2rem;
+}
+
+.contact .map {
+  width: 100%;
+  height: 50vh;
 }

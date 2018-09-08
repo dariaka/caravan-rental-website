@@ -16,6 +16,11 @@
     font-size: 3rem;
     line-height: 1.5;
   }
+
+  /* -- CONTACT -- */
+  .contact .map {
+    height: 40vh;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 768px) {
@@ -122,6 +127,15 @@
   .faq h3~h3 {
     margin-top: 20px;
   }
+
+  .faq a.link {
+    position: static;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #222;
+    background-color: transparent;
+    text-transform: lowercase;
+  }
 }
 
 @media (orientation: portrait) and (min-width: 1024px) {
@@ -154,8 +168,9 @@
   }
 
   /* -- CONTACT -- */
-  .contact {
-    height: 400px;
+  .contact .wrap {
+    float: right;
+    width: 50%;
   }
 
   .contact h2 {
@@ -163,20 +178,19 @@
   }
 
   .contact ul {
-    max-width: 1024px;
     margin: 40px auto;
-    font-size: 2.8rem;
-    text-align: center;
   }
 
   .contact ul li {
-    display: inline-block;
-    padding-right: 40px;
+    padding-left: 20px;
     font-size: 2.8rem;
+    line-height: 2;
+    text-align: left;
   }
 
-  .contact ul li:last-child {
-    padding-right: 0;
+  .contact .map {
+    float: right;
+    width: 50%;
   }
 }
 
@@ -274,6 +288,32 @@
     width: 25%;
     height: 20vw;
     padding: 0 3px;
+  }
+
+  /* -- CONTACT -- */
+  .contact .wrap {
+    float: right;
+    width: 50%;
+  }
+
+  .contact h2 {
+    font-size: 2.4rem;
+  }
+
+  .contact ul {
+    margin: 20px auto;
+    font-size: 1.6rem;
+  }
+
+  .contact ul li {
+    line-height: 2;
+    text-align: left;
+  }
+
+  .contact .map {
+    float: right;
+    width: 50%;
+    height: 90vh;
   }
 }
 
@@ -378,6 +418,24 @@
     display: block;
     margin: 40px auto 0;
   }
+
+  .faq a.link {
+    position: static;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #222;
+    background-color: transparent;
+    text-transform: lowercase;
+  }
+
+  /* -- CONTACT -- */
+  .contact h2 {
+    font-size: 2.8rem;
+  }
+
+  .contact ul {
+    font-size: 2rem;
+  }
 }
 
 @media (orientation: landscape) and (min-width: 800px) {
@@ -390,6 +448,16 @@
   /* -- OFFER -- */
   .camp a {
     height: 40vw;
+  }
+
+  /* -- CONTACT -- */
+  .contact h2 {
+    font-size: 3rem;
+  }
+
+  .contact ul {
+    font-size: 2.2rem;
+    padding-left: 40px;
   }
 }
 
@@ -495,17 +563,16 @@
 
   /* -- CONTACT -- */
   .contact h2 {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
   }
 
   .contact ul {
-    max-width: 1024px;
+    font-size: 2.4rem;
+    padding-left: 40px;
   }
 
-  .contact ul li {
-    display: inline-block;
-    width: 33.33%;
-    font-size: 2.2rem;
+  .contact .map {
+    height: 50vh;
   }
 }
 
