@@ -122,19 +122,6 @@
   .faq h3~h3 {
     margin-top: 20px;
   }
-
-  .faq a.tothetop {
-    position: fixed;
-    bottom: 300px;
-    right: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 80px;
-    line-height: 1;
-    color: white;
-    background-color: black;
-    opacity: 0.2;
-  }
 }
 
 @media (orientation: portrait) and (min-width: 1024px) {
@@ -391,10 +378,6 @@
     display: block;
     margin: 40px auto 0;
   }
-
-  .faq a.tothetop {
-    display: none;
-  }
 }
 
 @media (orientation: landscape) and (min-width: 800px) {
@@ -407,22 +390,6 @@
   /* -- OFFER -- */
   .camp a {
     height: 40vw;
-  }
-
-  /* -- FAQ -- */
-  .faq a.tothetop {
-    display: block;
-    position: fixed;
-    bottom: 0px;
-    right: 0;
-    z-index: -1;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 80px;
-    line-height: 1;
-    color: white;
-    background-color: black;
-    opacity: 0.2;
   }
 }
 
@@ -518,15 +485,6 @@
   }
 
   /* -- FAQ -- */
-  .faq a.tothetop {
-    transition: .3s;
-  }
-
-  .faq a.tothetop:hover {
-    bottom: 310px;
-    opacity: 1;
-  }
-
   .faq a.link {
     transition: .2s;
   }
@@ -548,5 +506,27 @@
     display: inline-block;
     width: 33.33%;
     font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .faq a.tothetop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: -1;
+    font-size: 50px;
+    line-height: 1;
+    color: white;
+    background-color: black;
+    opacity: 0.2;
+    transition: .3s;
+  }
+
+  .faq a.tothetop:hover {
+    bottom: 10px;
+    opacity: 1;
   }
 }
