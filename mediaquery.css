@@ -169,6 +169,34 @@
 
   /* -- CONTACT -- */
   .contact .wrap {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+  .contact h2 {
+    font-size: 3.2rem;
+  }
+
+  .contact ul {
+    margin: 20px auto;
+    font-size: 2.4rem;
+  }
+
+  .contact ul li {
+    float: left;
+    width: calc(100% / 3);
+    /* padding-left: 20px; */
+    line-height: 1.5;
+  }
+
+  .contact .map {
+    float: none;
+    width: 100%;
+    height: 30vh;
+  }
+
+  /* -- CONTACT -- */
+  /* .contact .wrap {
     float: right;
     width: 50%;
   }
@@ -191,7 +219,7 @@
   .contact .map {
     float: right;
     width: 50%;
-  }
+  } */
 }
 
 /* -- LANDSCAPE --*/
@@ -562,7 +590,36 @@
   }
 
   /* -- CONTACT -- */
+  .contact .wrap {
+    float: none;
+    width: 1024px;
+    margin: 0 auto;
+  }
+
   .contact h2 {
+    font-size: 3.2rem;
+  }
+
+  .contact ul {
+    margin: 20px auto;
+    font-size: 2.2rem;
+  }
+
+  .contact ul li {
+    float: left;
+    width: calc(100% / 3);
+    /* padding-left: 20px; */
+    line-height: 1.5;
+  }
+
+  .contact .map {
+    float: none;
+    width: 100%;
+    height: 50vh;
+  }
+
+  /* -- CONTACT -- */
+  /* .contact h2 {
     font-size: 3.2rem;
   }
 
@@ -573,7 +630,7 @@
 
   .contact .map {
     height: 50vh;
-  }
+  } */
 }
 
 @media (min-width: 1200px) {
