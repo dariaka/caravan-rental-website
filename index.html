@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="mediaquery.css">
 </head>
 
-<body onload="setTimeout(function() {window.scrollTo(0, 1)}, 100)">
+<body>
   <nav>
     <div class="wrap">
       <ul>
@@ -378,6 +378,12 @@
     })
   </script>
 
+  <!-- Hide URL bar -->
+  <script>
+    window.addEventListener("load", function () {
+      window.scrollTo(0, 0);
+    });
+  </script>
 </body>
 
 </html>
