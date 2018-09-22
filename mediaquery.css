@@ -333,51 +333,6 @@
     word-spacing: 4px;
   }
 
-  /* -- NAVIGATION -- */
-  nav {
-    display: block;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    width: 100%;
-    background-color: rgba(250, 250, 250, 0.8);
-  }
-
-  nav .wrap {
-    max-width: 1024px;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  nav ul {
-    list-style: none;
-    font-size: 0;
-  }
-
-  nav li {
-    display: inline-block;
-    width: 20%;
-  }
-
-  nav li a {
-    display: block;
-    color: #333;
-    font-size: 1.8rem;
-    line-height: 40px;
-    font-weight: 700;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.3s;
-  }
-
-  nav li a:hover {
-    font-weight: 400;
-    color: white;
-    background-color: deepskyblue;
-  }
-
   /* -- INTRO -- */
   .intro {
     margin-top: 60px;
@@ -493,6 +448,60 @@
     letter-spacing: 4px;
     word-spacing: 8px;
     cursor: default;
+  }
+
+  /* -- NAVIGATION -- */
+  nav {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: rgba(250, 250, 250, 0.8);
+  }
+
+  nav .wrap {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  nav ul {
+    list-style: none;
+    font-size: 0;
+  }
+
+  nav li {
+    display: inline-block;
+    width: 20%;
+  }
+
+  nav li span {
+    display: block;
+    color: #333;
+    font-size: 1.8rem;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  nav li span:hover {
+    font-weight: 400;
+    color: white;
+    background-color: deepskyblue;
+  }
+
+  .navbtn.active {
+    color: deepskyblue;
+    border-bottom: 2px solid currentColor;
+  }
+
+  .navbtn.active:hover {
+    color: white;
   }
 
   /* -- INTRO -- */

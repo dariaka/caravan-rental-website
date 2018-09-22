@@ -21,11 +21,11 @@
   <nav>
     <div class="wrap">
       <ul>
-        <li><a href="#start">Główna</a></li>
-        <li><a href="#offer">Oferta</a></li>
-        <li><a href="#galleries">Galeria</a></li>
-        <li><a href="#faq">Faq</a></li>
-        <li><a href="#contact">Kontakt</a></li>
+        <li><span class="navbtn toStart">Główna</span></li>
+        <li><span class="navbtn toOffer">Oferta</span></li>
+        <li><span class="navbtn toGalleries">Galeria</span></li>
+        <li><span class="navbtn toFaq">Warto wiedzieć</span></li>
+        <li><span class="navbtn toContact">Kontakt</span></li>
       </ul>
     </div>
   </nav>
@@ -368,6 +368,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
 
+  <script src="script.js"></script>
+
   <!-- Lightbox -->
   <script src="lightbox/js/lightbox.min.js"></script>
   <script>
@@ -376,13 +378,6 @@
       'resizeDuration': 400,
       'wrapAround': true,
     })
-  </script>
-
-  <!-- Hide URL bar -->
-  <script>
-    window.addEventListener("load", function () {
-      window.scrollTo(0, 0);
-    });
   </script>
 </body>
 
